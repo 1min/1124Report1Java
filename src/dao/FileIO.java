@@ -31,6 +31,7 @@ public class FileIO {
 
 	// 파일에 저장
 	public void dataSave(String[] arr) {
+		
 		try {
 			PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(file)));
 
